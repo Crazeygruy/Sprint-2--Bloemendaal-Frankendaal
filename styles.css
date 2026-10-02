@@ -1,0 +1,153 @@
+body{
+  Background: lightgreen;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(Images/Header.PNG);
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+
+.Logo{
+  width: 150px;
+  height: 150px;
+}
+.account{
+  width: 25px;
+  float: right;
+  margin-top: 25px;
+  border-radius: 15%;
+}
+.Account{
+  float: right;
+  width: 25px;
+}
+
+.gast img{
+  width: 75px;
+  height: 75px;
+  border-radius: 25%;
+}
+.gast{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.Gast{
+  width: 75px;
+  font-size: 25px;
+}
+.zoek{
+  Font-size: 30px;
+  text-align: center;
+  border-radius: 15%;
+}
+
+.Search{
+  border-radius: 25%;
+}
+
+.tb, .wd{
+  width: 300px;
+  height:300px;
+}
+
+.Kaart img{
+  width: 75px;
+  height: 75px;
+  float: right;
+}
+
+
+.col-container{
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+}
+
+.col1{
+  margin-top: 150px;
+  justify-content: center;
+  padding-left: 15px;
+  border-radius: 5%;
+}
+
+img{
+  border-radius: 5%;
+}
+
+.BIO{
+  padding: 15px;
+  border: 5px solid;
+  margin: 15px;
+  width: 300px;
+  border-radius: 15%;
+  background: white;
+}
+
+
+.logo{
+  width: 200px;
+  
+}
+
+
+.Map{
+  width: 1000px;
+  display: flex;
+  margin-top: 150px;
+  border-radius: 5%;
+  margin: 0 auto;
+}
+
+.MapBIO{
+  display: flex;
+  width: 20em;
+  font-size: 50px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+footer{
+  background-image: url(Images/Header.PNG);
+  background-size: cover;
+  opacity: 0.7;
+
+
+}
+
+@media (max-width: 600px) {
+.Map{
+  width: 100%;
+}
+
+}
+
+@media (max-width: 768px) {
+
+    .col-container {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col1 {
+        width: 100%;
+    }
+
+}
