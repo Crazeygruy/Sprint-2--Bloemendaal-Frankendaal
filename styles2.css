@@ -193,6 +193,15 @@ footer hr{
 .NF{
     display: flex;
     align-items: center;
-    width: 180px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
+}
+
+@media(min-width: 468px){
+    .NF{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
