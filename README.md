@@ -8,7 +8,6 @@ die heb ik wat meer zichtbaar gemaakt en een nieuwe map toegevoegd. Daarnaast he
 voor de oplossing heb ik een gast optie gemaakt, waar iedere gebruiker als een gast kan inloggen met 1 knopje. Alle informatie zoals opdrachten die je uitvoert worden lokaal opgeslagen en
 collectie kan nog steeds blijven staan, alleen dan kan je de bloemencollectie zelfstanding afvinken en staan ze al gepresenteerd op een nieuwe pagina.
 
-Hier staat de website: https://crazeygruy.github.io/Sprint-2--Bloemendaal-Frankendaal/
 
 Huisstijl:
 Van de opdrachtgever hebben wij een figma bestand ontvangen maar werd ons tegelijkerteid verteld om er zelf wat verandering hier en daar aan te brengen. Ik zal het proberen om bij te houden en hier en daar graphische veranderingen aan te passen.
