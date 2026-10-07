@@ -124,7 +124,9 @@ footer hr{
 .carousel {
   margin: 100px auto;
   width: 90%;
-  overflow: hidden;
+  overflow: scroll;
+  scrollbar-width: none;
+  
 }
 
 .carousel-track {
@@ -195,13 +197,11 @@ footer hr{
     align-items: center;
     width: 130px;
     height: 130px;
-}
-
-@media(min-width: 468px){
-    .NF{
-        width: 100%;
+   
+    @media(max-width: 468px) {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 }
+
