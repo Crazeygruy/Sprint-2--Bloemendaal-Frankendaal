@@ -10,8 +10,12 @@ collectie kan nog steeds blijven staan, alleen dan kan je de bloemencollectie ze
 
 Hier staat de website: https://crazeygruy.github.io/Sprint-2--Bloemendaal-Frankendaal/
 
+Huisstijl:
+Van de opdrachtgever hebben wij een figma bestand ontvangen maar werd ons tegelijkerteid verteld om er zelf wat verandering hier en daar aan te brengen. Ik zal het proberen om bij te houden en hier en daar graphische veranderingen aan te passen.
+
 Kenmerken:
 HTML, CSS en JS
+Homepagina, Veldverkenner (vernieuwde map pagina) en een nieuw collectie pagina.
 
 HTML:
 Ik heb meerdere HTML files gebruikt:
@@ -31,3 +35,28 @@ div class="Kaart">
     </a>
   </div>
 Icoon die je kan klikken voor een verwijzing
+
+(Dit is de carousel voor de homepagina die al het veldnieuws netjes laat zien, ook kan je zelf er doorheen scrollen als gebruiker)
+<div class="carousel">
+  <div class="carousel-track">
+    <div class="group">
+
+(Hier is het stuk voor de open source map pagina, de coordinaten zijn bedoeld om te plaatsen als link naar elke locatie van de bloem/plant, als je er op klikt zal je een informatiekaart tevoorschijn zien komen die je verteld over de bloem.
+<map name="Mapkaart">
+  <area shape="circle" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="circle" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+
+In de <footer>, zal je een navigatiebalk vinden waar je dus doorheen kan scrollen om de plekken te kunnen vinden. 
+
+
+Bronnen:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements
+https://www.youtube.com/
+https://github.com/Crazeygruy/the-client-website
+https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
+
+
+
