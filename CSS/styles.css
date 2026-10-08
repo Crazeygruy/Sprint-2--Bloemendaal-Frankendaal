@@ -1,176 +1,221 @@
-body{
-  Background: lightgreen;
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 100px;
+    
 }
 
-header{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-image: url(Images/Header.PNG);
-  background-position: center;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
+.welkom{
+    text-align: center;
+    margin-top: 100px;
+    font-family:'Times New Roman', Times, serif;
 }
-
-
-.Logo{
-  width: 150px;
-  height: 150px;
-}
-.account{
-  width: 25px;
-  float: right;
-  margin-top: 25px;
-  border-radius: 15%;
-}
-.Account{
-  float: right;
-  width: 25px;
-}
-
-.gast img{
-  width: 75px;
-  height: 75px;
-  border-radius: 25%;
-}
-.gast{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-left: auto;
-}
-
-.Gast{
-  width: 75px;
-  font-size: 35px;
-  background-color: white;
-  opacity: 0.8;
-  border-radius: 5%;
-}
-.zoek{
-  Font-size: 30px;
-  text-align: center;
-  border-radius: 15%;
-}
-
-.Search{
-  border-radius: 25%;
-}
-
-.tb, .wd{
-  width: 300px;
-  height:300px;
-}
-
-.Kaart img{
-  width: 75px;
-  height: 75px;
-  float: right;
-}
-
-
-.col-container{
- flex-direction: column;
-display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.col1{
-  margin-top: 150px;
-  justify-content: center;
-  padding-left: 15px;
-  border-radius: 5%;
-}
-
-img{
-  border-radius: 5%;
-}
-
-.BIO{
-  padding: 15px;
-  border: 5px solid;
-  margin: 15px;
-  width: 300px;
-  border-radius: 15%;
-  background: white;
-}
-
 
 .logo{
-  width: 200px;
+    display: inline-flex;
+    width: 75px;
+    height: 75px;
+}
+
+.BC {
+    margin: 15px;
+    display: flex;
+    text-align: left;
+    gap: 10px;
+}
+
+.veld-nieuws{
+    margin: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.icon2{
+    width: 75px;
+    height: 75px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgb(136, 136, 231);
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+    text-align: center;
+
+}
+
+.archive {
+  padding: 3rem 0;
   
 }
 
-
-.Map{
-  width: 600px;
+.archive-header {
   display: flex;
-  border-radius: 5%;
-  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
 
-.MapBIO{
-  display: flex;
-  width: 20em;
-  font-size: 25px;
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 200px;
-  border: 5px solid;
-  border-radius: 15%;
+.scroll{
+    text-align: center;
 }
 
-main{
-  display: flex;
-  flex-direction: column;
-  gap: 3em;
+
+.clickthis{
+    text-align: center;
 }
+
 
 footer{
-  background-color: white;
+    padding: 0 var(--page-padding) 4rem;
 }
+
+footer hr{
+    width: min(48rem, 100%);
+    margin: 0 auto;
+
+    border: none;
+    border-top: 1px solid rgb(244 244 241 / 15%);
+}
+
+.bye{
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.Contact{
+    list-style: none;
+    display: flex;
+    padding: 15px;
+    gap: 100px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.Contact a{
+    text-decoration: none;
+
+    transition: color 0.3s ease;
+}
+
+.Contact a svg.contact-icon {
+    width: 1em;
+    height: 1em;
+
+    margin-right: 0.4em;
+
+    vertical-align: -0.12em;
+}
+
+.Contact a:hover,
+.Contact a:focus-visible{
+    color: pink;
+
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+}
+
+.carousel {
+  margin: 100px auto;
+  width: 90%;
+  overflow: scroll;
+  scrollbar-width: none;
+  
+}
+
+.carousel-track {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  animation: spin 30s linear infinite;
+}
+
+.carousel:hover .carousel-track,
+.carousel:focus-within .carousel-track {
+  animation-play-state: paused;
+}
+
+
+
+.card{
+    flex: 0 0 4em;
+    width: 300px;
+    height: 300px;
+    padding: 0.5em;
+  --color-background: #080808;
+  --color-text: #f4f4f1;
+  --color-muted: #a3a3a0;
+
+  --wave-one: #6b1f2a;
+  --wave-two: #243f8f;
+  --wave-three: #5b3f72;
+    font-size: 3em;
+    border-radius: .2em;
+    text-align: center;
+    align-content: center;
+    flex-shrink: 0;
+}
+
+.spots{
+    width: 200px;
+    height: 4em;
+    padding: 0.5em;
+    border-radius: .2em;
+    align-content: center;
+    object-fit: cover;
+    display: block;
+    border-radius: 25%;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+@keyframes spin {
+  from { translate: 0; }
+  to { translate: calc(-50% - 0.75em); }
+}
+
+
+
+
 .navfooter{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5em;
+    gap: 0.3em;
+    
 }
-
 
 .NF{
-    display: flex;
-    align-items: center;
-    width: 130px;
-    height: 130px;
+    width: 80px;
+    border-radius: 25%;
+}
+.NG{
+    width: 100px;
+    border-radius: 25%;
+}
+
+
+@media(min-width:500px){
+    .navfooter{
+    gap: 9em;
+
+    
+}
+.box{
+    width: 1000px;
+    height: 300px;
    
-    @media(min-width: 468px) {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
 
-@media (min-width: 600px) {
-.Map{
-  width: 100%;
 }
 
 }
 
-@media (min-width: 768px) {
-
-    .col-container {
-    display: flex;
-    flex-direction: row;
-    gap: 35px;
-    justify-content: center;
-    }
-
-    .col1 {
-        /* width: 100%; */
-    }
-
-}
 
